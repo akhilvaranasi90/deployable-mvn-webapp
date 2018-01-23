@@ -21,6 +21,6 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>webappExample</finalName>
+		<finalName>deployable-mvn-webapp</finalName>
 	</build>
 </project>
