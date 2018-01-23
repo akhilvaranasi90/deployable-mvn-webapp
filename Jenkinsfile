@@ -30,7 +30,7 @@ agent any
     }
     stage('Deploy'){
       steps{
-      sh 'sudo cp /Users/Shared/Jenkins/Home/workspace/deployable-mvn_master-BXZWJV5WN5VWUQ2BPNC66J7QYJFQ7ZUIJM7XCZZDXBJJCVO4XDFA/target/deployable-mvn-webapp.war /Users/akhilvaranasi/Desktop/DevOps_training/tomcat8/webapps/'
+      sh 'cp /Users/Shared/Jenkins/Home/workspace/deployable-mvn_master-BXZWJV5WN5VWUQ2BPNC66J7QYJFQ7ZUIJM7XCZZDXBJJCVO4XDFA/target/deployable-mvn-webapp.war /Users/akhilvaranasi/Desktop/DevOps_training/tomcat8/webapps/'
       }
     }
   }
