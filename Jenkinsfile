@@ -8,6 +8,7 @@ agent any
     stage('Pipeline Test'){
         steps{
           echo 'Pipeline successfull...'
+          sh 'whoami'
         }
     }
     stage('Maven Test'){
